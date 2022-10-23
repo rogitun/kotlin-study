@@ -1,4 +1,4 @@
-package data_type
+package chap_1
 
 fun main() {
 

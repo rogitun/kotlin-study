@@ -1,4 +1,4 @@
-package functional
+package chap_3
 
 fun maxNumber(a : Int, b: Int): Int{
     return if (a>b) a else b
@@ -18,12 +18,12 @@ fun normalVarargs(vararg a : Int){
     }
 }
 
-fun average(first: Float, vararg secs : Float ): Double{
+fun average(first: Float, vararg seconds : Float ): Double{
     var res : Double = first.toDouble();
 
-    var div : Int = 1 + secs.size
+    var div : Int = 1 + seconds.size
 
-    for(num in secs){
+    for(num in seconds){
         res += num.toDouble()
     }
 
@@ -46,4 +46,7 @@ fun main() {
     val res = average(1.5F,2.3F,4.5F,6.7F)
 
     println(res.toInt())
+
+
+
 }
