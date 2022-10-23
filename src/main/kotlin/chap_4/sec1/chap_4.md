@@ -6,8 +6,6 @@
     val multi2 : (a : Int, b:Int) -> Int = { a , b -> a * b }
 ```
 
-![](../../../../../../../../../var/folders/9s/f15_lrkj6gz69n360wp5np0r0000gn/T/TemporaryItems/NSIRD_screencaptureui_Ayhn43/스크린샷 2022-10-23 오후 10.07.13.png)
-
 1번 방식으로 타입을 지정해주는 방식이 있고, \
 2번 방식과 같이 미리 선언해주고 람다 식에 할당해주는 방법도 있다.
 
